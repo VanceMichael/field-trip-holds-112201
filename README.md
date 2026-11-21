@@ -5,6 +5,7 @@
 使用 Node.js 22。执行 `npm ci` 安装锁定依赖。
 常规环境首次运行浏览器检查可用 `npx playwright install --with-deps chromium` 准备 Chromium。
 运行 `npm start`，来源默认监听 `127.0.0.1:4180`，可用 `PORT` 指定端口。
+`GET /health` 可确认回放服务已就绪。
 `npm test` 启动一份独立来源实例并检查其真实响应和浏览器可见内容。
 
 来源契约见[接口说明](docs/sources.md)。业务方可提交的样例资料保存在 `inputs/`。
