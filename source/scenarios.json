@@ -1,0 +1,140 @@
+{
+  "main": [
+    {
+      "tick": 550,
+      "feeds": {},
+      "workshop": [
+        {
+          "code": "M8",
+          "start": 630,
+          "end": 680,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        },
+        {
+          "code": "M9",
+          "start": 700,
+          "end": 755,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        }
+      ],
+      "shuttle": [
+        {
+          "code": "B7",
+          "start": 590,
+          "end": 610,
+          "stop": "门东",
+          "remaining": {
+            "adult": 2,
+            "child": 3
+          }
+        },
+        {
+          "code": "B8",
+          "start": 635,
+          "end": 668,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        }
+      ],
+      "immediate": false,
+      "cap": 2,
+      "seats": 4,
+      "visibleAfter": 572
+    },
+    {
+      "tick": 573,
+      "feeds": {},
+      "workshop": [
+        {
+          "code": "M8",
+          "start": 630,
+          "end": 680,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        },
+        {
+          "code": "M9",
+          "start": 700,
+          "end": 755,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        }
+      ],
+      "shuttle": [
+        {
+          "code": "B7",
+          "start": 590,
+          "end": 610,
+          "stop": "门东",
+          "remaining": {
+            "adult": 2,
+            "child": 3
+          }
+        },
+        {
+          "code": "B8",
+          "start": 635,
+          "end": 668,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        }
+      ],
+      "immediate": true,
+      "cap": 3,
+      "seats": 5,
+      "visibleAfter": 573
+    },
+    {
+      "tick": 601,
+      "feeds": {},
+      "workshop": [
+        {
+          "code": "M9",
+          "start": 700,
+          "end": 755,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        }
+      ],
+      "shuttle": [
+        {
+          "code": "B8",
+          "start": 635,
+          "end": 668,
+          "stop": "门东",
+          "remaining": {
+            "adult": 3,
+            "child": 4
+          }
+        }
+      ],
+      "immediate": true,
+      "cap": 3,
+      "seats": 5,
+      "visibleAfter": 601
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "contact": "T-X01",
+  "maximumEnd": 760,
+  "buffer": 15,
+  "allowSeparateHouseholds": true,
+  "households": [
+    {
+      "name": "甲",
+      "members": {
+        "M1": "adult",
+        "M2": "child",
+        "M3": "child"
+      },
+      "ownRideArrival": 670
+    },
+    {
+      "name": "乙",
+      "members": {
+        "M4": "adult",
+        "M5": "child"
+      }
+    }
+  ]
+}
